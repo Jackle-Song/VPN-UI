@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">VPN UI</string>
+
+    <!--Privacy Activity-->
+    <string name="privacy_activity_setup_configuration_btn_title">Tap to Setup Configuration</string>
+    <string name="privacy_activity_agree_continue_btn_title">Agree and Continue</string>
+
+    <!--Privacy Activity - VPN Configuration-->
+    <string name="privacy_activity_setup_vpn_configuration_title">Setup VPN configuration</string>
+    <string name="privacy_activity_allow_vpn_configuration_text">Allow VPN to add configurations to your device.</string>
+    <string name="privacy_activity_add_vpn_configuration_text">“VPN” Would like to Add VPN Configurations</string>
+    <string name="privacy_activity_do_not_allow_btn_text">Don’t Allow</string>
+    <string name="privacy_activity_allow_btn_text">Allow</string>
+    <string name="privacy_activity_enter_passcode_text">Enter your passcode to confirm</string>
+
+    <!--Privacy Activity - Privacy Details-->
+    <string name="privacy_activity_your_privacy_text">Your privacy comes first</string>
+    <string name="privacy_activity_privacy_details_text">To provide you with a fast and reliable VPN service, we collect a minimum amount of data.\n\nWe Collect:\n\n1. Device-specific information such as OS version, hardware model, and IP address to optimize our network connection to you. We do not store or log your IP address after you disconnect from the VPN.\n\n2. Aggregated anonymous website activity data, to perform analytics on our service and to ensure you can reliably access certain websites or apps.\n\n3. Total bandwidth consumed and time connected to our VPN service.\n\nWe do not keep logs of your online activities and never associate any domains or applications that you use with you, your device, IP address, or email.\n\nFor more information, please read our Privacy Policy.</string>
 </resources>

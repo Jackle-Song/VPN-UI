@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.mrsworkshop.vpnui"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.mrsworkshop.vpnui"

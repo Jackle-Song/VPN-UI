@@ -2,4 +2,14 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="light_grey_e1">#DCDCDC</color>
+    <color name="light_grey_7d">#7D7D7D</color>
+    <color name="grey_49">#494949</color>
+    <color name="view_bg_grey_eb">#EBEBEB</color>
+    <color name="view_bg_grey_d9">#D9D9D9</color>
+    <color name="blue_14">#1471F5</color>
+
+    <color name="button_bg_49">#49A9BE</color>
+    <color name="button_bg_18">#185A96</color>
 </resources>
