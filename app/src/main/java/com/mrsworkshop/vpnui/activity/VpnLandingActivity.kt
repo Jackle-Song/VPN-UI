@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
+import android.view.View
 import com.mrsworkshop.vpnui.R
 
 class VpnLandingActivity : AppCompatActivity() {
@@ -16,6 +17,8 @@ class VpnLandingActivity : AppCompatActivity() {
     }
 
     private fun initUI() {
+        window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_FULLSCREEN
+        actionBar?.hide()
         Handler(Looper.getMainLooper()).postDelayed({
             val intent = Intent(this@VpnLandingActivity, PrivacyActivity::class.java)
             startActivity(intent)

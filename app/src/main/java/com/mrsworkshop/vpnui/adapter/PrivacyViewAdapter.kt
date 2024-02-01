@@ -4,16 +4,23 @@ import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
+import android.widget.ImageView
 import androidx.recyclerview.widget.RecyclerView
 import com.mrsworkshop.vpnui.R
 import com.mrsworkshop.vpnui.core.CoreEnum
 
 class PrivacyViewAdapter(
     private val mContext : Context,
+    private val mListener : PrivacyViewInterface,
 ) : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
 
-    class VpnConfigurationViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
+    interface PrivacyViewInterface {
+        fun proceedToNextView()
+    }
 
+    class VpnConfigurationViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
+        val closeBtn : ImageView = itemView.findViewById(R.id.imgCloseBtnPrivacy)
     }
 
     class PrivacyDetailsViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
@@ -63,6 +70,10 @@ class PrivacyViewAdapter(
         when (holder.itemViewType) {
             CoreEnum.PrivacyViewType.VPN_CONFIGURATION_VIEW_TYPE.viewType -> {
                val vpnViewHolder = holder as VpnConfigurationViewHolder
+
+                vpnViewHolder.closeBtn.setOnClickListener {
+                    mListener.proceedToNextView()
+                }
             }
 
             CoreEnum.PrivacyViewType.PRIVACY_DETAILS_VIEW_TYPE.viewType -> {
