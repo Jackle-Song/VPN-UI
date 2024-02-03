@@ -1,5 +1,6 @@
 package com.mrsworkshop.vpnui.activity
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.viewpager2.widget.ViewPager2
@@ -53,6 +54,9 @@ class PrivacyActivity : AppCompatActivity(), PrivacyViewAdapter.PrivacyViewInter
 
                 CoreEnum.PrivacyViewType.PRIVACY_DETAILS_VIEW_TYPE.viewType -> {
                     binding.btnActionPrivacy.text = getString(R.string.privacy_activity_agree_continue_btn_title)
+                    val intent = Intent(this@PrivacyActivity, HomeActivity::class.java)
+                    startActivity(intent)
+                    finish()
                 }
             }
         }
