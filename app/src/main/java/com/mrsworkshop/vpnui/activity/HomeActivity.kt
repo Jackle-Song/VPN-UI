@@ -56,6 +56,11 @@ class HomeActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        binding.layoutSideBar.layoutNavUseOnOtherDevices.setOnClickListener {
+            val intent = Intent(this@HomeActivity, UseOnOtherDevicesActivity::class.java)
+            startActivity(intent)
+        }
+
         binding.layoutSideBar.layoutNavLanguage.setOnClickListener {
             val intent = Intent(this@HomeActivity, LanguageOptionsActivity::class.java)
             startActivity(intent)

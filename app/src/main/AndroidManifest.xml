@@ -20,6 +20,10 @@
             android:screenOrientation="portrait"/>
         <activity android:name=".activity.LanguageOptionsActivity"
             android:screenOrientation="portrait"/>
+        <activity android:name=".activity.UseOnOtherDevicesActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activity.ForAllDevicesActivity"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".activity.VpnLandingActivity"
             android:exported="true"

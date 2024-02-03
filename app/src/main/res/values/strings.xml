@@ -66,4 +66,16 @@
         <item>Thai</item>
     </string-array>
 
+    <!--Use On Other Devices Activity-->
+    <string name="use_other_activity_title">Use On Other Devices</string>
+    <string name="use_other_activity_login_passcode_title">Login via passcode</string>
+    <string name="use_other_activity_other_devices_text">PC, Mac, Tv, and other devices</string>
+    <string name="use_other_activity_for_all_devices_title">For All Devices</string>
+    <string name="use_other_activity_for_all_other_devices_text">PC, Mac, Router, and others</string>
+
+    <!--For All Devices Activity-->
+    <string name="for_all_devices_activity_title">For All Devices</string>
+    <string name="for_all_devices_others_device_title">For Windows, Mac, and others</string>
+    <string name="for_all_devices_others_device_descriptions">VPN has extended the VPN service on PCs, including Windows and Mac.\n\nSecure your internet traffic, access various websites, and stream your favourite content on your computer now.\n\nJust enter <a href="https://flashvpn.com">https://flashvpn.com</a> in your browser to check out our official website for more information.</string>
+
 </resources>
