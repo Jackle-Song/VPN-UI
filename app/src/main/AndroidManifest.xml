@@ -18,6 +18,8 @@
             android:screenOrientation="portrait"/>
         <activity android:name=".activity.NotificationActivity"
             android:screenOrientation="portrait"/>
+        <activity android:name=".activity.LanguageOptionsActivity"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".activity.VpnLandingActivity"
             android:exported="true"

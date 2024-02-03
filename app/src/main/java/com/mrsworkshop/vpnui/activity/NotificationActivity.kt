@@ -17,6 +17,10 @@ class NotificationActivity : AppCompatActivity() {
         setupComponentListener()
     }
 
+    /**
+     * private function
+     */
+
     private fun initUI() {
         binding.layoutNotificationHeader.txtActivityTitle.text = getString(R.string.notification_activity_notification_title)
     }

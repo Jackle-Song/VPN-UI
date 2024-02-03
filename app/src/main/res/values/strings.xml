@@ -48,4 +48,22 @@
     <!--Notification Activity-->
     <string name="notification_activity_notification_title">Notification</string>
     <string name="notification_activity_no_messages">No Message Right Now</string>
+
+    <!--Language Activity-->
+    <string name="language_activity_title">Language</string>
+
+    <string-array name="language_options">
+        <item>Auto</item>
+        <item>English</item>
+        <item>Chinese</item>
+        <item>Arabic</item>
+        <item>Spanish</item>
+        <item>Portuguese</item>
+        <item>French</item>
+        <item>Bengali</item>
+        <item>Persian</item>
+        <item>Vietnamese</item>
+        <item>Thai</item>
+    </string-array>
+
 </resources>

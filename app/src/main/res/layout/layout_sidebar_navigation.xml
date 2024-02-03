@@ -165,6 +165,7 @@
             android:layout_height="1dp"/>
 
         <LinearLayout
+            android:id="@+id/layoutNavLanguage"
             android:gravity="center_vertical"
             android:orientation="horizontal"
             android:layout_width="match_parent"

@@ -55,5 +55,10 @@ class HomeActivity : AppCompatActivity() {
             val intent = Intent(this@HomeActivity, NotificationActivity::class.java)
             startActivity(intent)
         }
+
+        binding.layoutSideBar.layoutNavLanguage.setOnClickListener {
+            val intent = Intent(this@HomeActivity, LanguageOptionsActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
