@@ -16,4 +16,32 @@
     <!--Privacy Activity - Privacy Details-->
     <string name="privacy_activity_your_privacy_text">Your privacy comes first</string>
     <string name="privacy_activity_privacy_details_text">To provide you with a fast and reliable VPN service, we collect a minimum amount of data.\n\nWe Collect:\n\n1. Device-specific information such as OS version, hardware model, and IP address to optimize our network connection to you. We do not store or log your IP address after you disconnect from the VPN.\n\n2. Aggregated anonymous website activity data, to perform analytics on our service and to ensure you can reliably access certain websites or apps.\n\n3. Total bandwidth consumed and time connected to our VPN service.\n\nWe do not keep logs of your online activities and never associate any domains or applications that you use with you, your device, IP address, or email.\n\nFor more information, please read our Privacy Policy.</string>
+
+    <!--Home Activity-->
+    <string name="home_activity_go_premium_title">Go Premium!</string>
+    <string name="home_activity_vpn_off_title">VPN IS OFF</string>
+    <string name="home_activity_vpn_on_title">VPN IS ON</string>
+    <string name="home_activity_auto_title">Auto</string>
+    <string name="home_activity_select_location_title">Select\nLocation</string>
+    <string name="home_activity_get_premium_title">GET\nPREMIUM</string>
+    <string name="home_activity_now_title">NOW</string>
+    <string name="home_activity_faster_speed_title">Faster Speed</string>
+    <string name="home_activity_worldwide_location_title">Worldwide Location</string>
+    <string name="home_activity_streaming_servers_title">Streaming Servers</string>
+    <string name="home_activity_no_ads_title">No Ads</string>
+    <string name="home_activity_save_ads_title">Save 36%</string>
+    <string name="home_activity_yearly_plan_title">Yearly Plan</string>
+    <string name="home_activity_private_browser_title">Private Browser</string>
+    <string name="home_activity_advanced_features_title">Advanced Features</string>
+
+    <!--Home Activity - Nav Menu-->
+    <string name="nav_menu_sign_in_title">Sign In / Sign Up</string>
+    <string name="nav_menu_free_account_title">Free Account</string>
+    <string name="nav_menu_support_title">Support</string>
+    <string name="nav_menu_proxy_server_title">Proxy Server</string>
+    <string name="nav_menu_use_on_other_title">Use On Other Devices</string>
+    <string name="nav_menu_language_title">Language</string>
+    <string name="nav_menu_about_title">About</string>
+    <string name="nav_menu_rate_us_title">Rate Us</string>
+    <string name="nav_menu_share_vpn_title">Share VPN</string>
 </resources>
