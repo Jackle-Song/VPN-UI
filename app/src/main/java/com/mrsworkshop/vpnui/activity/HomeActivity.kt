@@ -1,5 +1,6 @@
 package com.mrsworkshop.vpnui.activity
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
@@ -48,6 +49,11 @@ class HomeActivity : AppCompatActivity() {
             } else {
                 binding.drawerLayout.openDrawer(GravityCompat.START)
             }
+        }
+
+        binding.imgNotificationHome.setOnClickListener {
+            val intent = Intent(this@HomeActivity, NotificationActivity::class.java)
+            startActivity(intent)
         }
     }
 }
