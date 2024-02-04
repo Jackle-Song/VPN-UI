@@ -3,7 +3,9 @@ package com.mrsworkshop.vpnui.activity
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
+import android.view.View
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.mrsworkshop.vpnui.R
 import com.mrsworkshop.vpnui.adapter.LocationOptionsAdapter
@@ -72,5 +74,15 @@ class SelectLocationActivity : AppCompatActivity() {
                 // Not needed
             }
         })
+
+        binding.etSearchLocation.onFocusChangeListener = View.OnFocusChangeListener { _, hasFocus ->
+            if (hasFocus) {
+                // EditText is focused, change CardView stroke color
+                binding.cardViewSearchLocation.strokeColor = ContextCompat.getColor(this, R.color.button_bg_49)
+            } else {
+                // EditText lost focus, change CardView stroke color back to the default
+                binding.cardViewSearchLocation.strokeColor = (ContextCompat.getColor(this, R.color.light_grey_e1))
+            }
+        }
     }
 }
