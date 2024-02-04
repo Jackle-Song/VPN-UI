@@ -1,5 +1,6 @@
 package com.mrsworkshop.vpnui.activity
 
+import android.content.Intent
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
@@ -83,6 +84,11 @@ class SelectLocationActivity : AppCompatActivity() {
                 // EditText lost focus, change CardView stroke color back to the default
                 binding.cardViewSearchLocation.strokeColor = (ContextCompat.getColor(this, R.color.light_grey_e1))
             }
+        }
+
+        binding.cardViewGoPremium.setOnClickListener {
+            val intent = Intent(this@SelectLocationActivity, PremiumActivity::class.java)
+            startActivity(intent)
         }
     }
 }

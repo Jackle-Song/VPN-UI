@@ -51,6 +51,11 @@ class HomeActivity : AppCompatActivity() {
             }
         }
 
+        binding.cardViewGoPremium.setOnClickListener {
+            val intent = Intent(this@HomeActivity, PremiumActivity::class.java)
+            startActivity(intent)
+        }
+
         binding.imgNotificationHome.setOnClickListener {
             val intent = Intent(this@HomeActivity, NotificationActivity::class.java)
             startActivity(intent)

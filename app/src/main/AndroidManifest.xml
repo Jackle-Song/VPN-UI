@@ -26,6 +26,8 @@
             android:screenOrientation="portrait"/>
         <activity android:name=".activity.SelectLocationActivity"
             android:screenOrientation="portrait"/>
+        <activity android:name=".activity.PremiumActivity"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".activity.VpnLandingActivity"
             android:exported="true"

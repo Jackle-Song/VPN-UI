@@ -83,4 +83,35 @@
     <string name="select_location_activity_for_all_location_text">for all location</string>
     <string name="select_location_activity_search_location_text">Search for country, city and streaming</string>
     <string name="select_location_activity_recommended_text">Recommended</string>
+
+    <!--Premium Activity-->
+    <string name="premium_activity_enjoy_exclusive_text">Enjoy Exclusive Benefits of Premium</string>
+    <string name="premium_activity_free_text">Free</string>
+    <string name="premium_activity_premium_text">Premium</string>
+    <string name="premium_activity_protocols_text">Protocols</string>
+    <string name="premium_activity_5_text">5</string>
+    <string name="premium_activity_11_text">11</string>
+    <string name="premium_activity_speed_text">Speed</string>
+    <string name="premium_activity_fast_text">Fast</string>
+    <string name="premium_activity_ultra_fast_text">Ultra Fast</string>
+    <string name="premium_activity_locations_text">Locations</string>
+    <string name="premium_activity_10_text">10</string>
+    <string name="premium_activity_50_text">50+</string>
+    <string name="premium_activity_servers_text">Servers</string>
+    <string name="premium_activity_100_text">100+</string>
+    <string name="premium_activity_5000_text">5000+</string>
+    <string name="premium_activity_no_ads_text">No Ads</string>
+    <string name="premium_activity_support_text">1 : 1 Support</string>
+    <string name="premium_activity_yearly_text">Yearly</string>
+    <string name="premium_activity_best_value_text">Best Value</string>
+    <string name="premium_activity_yearly_plan_text">First 7 days free |  Then $73.99 per year</string>
+    <string name="premium_activity_monthly_text">Monthly</string>
+    <string name="premium_activity_monthly_plan_text">First 7 days free | Then $ 12.49 per month</string>
+    <string name="premium_activity_weekly_text">Weekly</string>
+    <string name="premium_activity_weekly_plan_text">First 7 days free | Then $ 3.99 per week</string>
+    <string name="premium_activity_continue_text">Continue</string>
+    <string name="premium_activity_sign_in_text">Sign In</string>
+    <string name="premium_activity_dot_text">•</string>
+    <string name="premium_activity_restore_purchase_text">Restore Purchases</string>
+    <string name="premium_activity_long_text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper</string>
 </resources>
