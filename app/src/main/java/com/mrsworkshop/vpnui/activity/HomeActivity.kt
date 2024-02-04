@@ -66,6 +66,11 @@ class HomeActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        binding.layoutAdvancedFeatures.setOnClickListener {
+            val intent = Intent(this@HomeActivity, AdvancedFeaturesActivity::class.java)
+            startActivity(intent)
+        }
+
         binding.layoutSideBar.layoutNavUseOnOtherDevices.setOnClickListener {
             val intent = Intent(this@HomeActivity, UseOnOtherDevicesActivity::class.java)
             startActivity(intent)

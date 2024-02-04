@@ -114,4 +114,24 @@
     <string name="premium_activity_dot_text">•</string>
     <string name="premium_activity_restore_purchase_text">Restore Purchases</string>
     <string name="premium_activity_long_text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper</string>
+
+    <!--Advanced Features Activity-->
+    <string name="advanced_features_activity_title">Advanced Features</string>
+    <string name="advanced_features_activity_connection_log_title">Connection Log</string>
+    <string name="advanced_features_activity_premium_text">Premium</string>
+    <string name="advanced_features_activity_connect_to_ip_text">Connect to the IP from your connection history</string>
+    <string name="advanced_features_activity_split_tunneling_title">Split Tunneling</string>
+    <string name="advanced_features_activity_choose_apps_text">Choose apps to use or not use VPN tunnel</string>
+    <string name="advanced_features_activity_fast_connect_title">Fast-Connect Bar</string>
+    <string name="advanced_features_activity_fast_connect_way_text">4 types of fast connecting ways without opening the app</string>
+    <string name="advanced_features_activity_kill_switch_title">Kill Switch</string>
+    <string name="advanced_features_activity_disable_network_text">Disable all internet if VPN disconnects</string>
+    <string name="advanced_features_activity_stable_connection_title">Stable Connection</string>
+    <string name="advanced_features_activity_choose_stable_network_text">The connection would take longer time to choose a more stable server for you</string>
+    <string name="advanced_features_activity_dark_mode_title">Dark Mode</string>
+    <string name="advanced_features_activity_on_text">On</string>
+    <string name="advanced_features_activity_off_text">Off</string>
+    <string name="advanced_features_activity_system_text">System</string>
+    <string name="advanced_features_activity_appearance_adjust_text">Appearance will adjust based on your device’s system</string>
+
 </resources>

@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/light_grey_e1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/layoutAdvancedFeaturesHeader"
+        layout="@layout/item_header_activity"/>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_centerVertical="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:text="@string/advanced_features_activity_connection_log_title"
+                            android:textSize="12sp"
+                            android:textColor="@color/grey_49"
+                            android:fontFamily="@font/stolzl_medium"
+                            android:layout_marginEnd="8dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                        <TextView
+                            android:text="@string/advanced_features_activity_premium_text"
+                            android:textSize="12sp"
+                            android:textColor="@color/orange_FD"
+                            android:fontFamily="@font/stolzl_medium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:text="@string/advanced_features_activity_connect_to_ip_text"
+                        android:textSize="8sp"
+                        android:textColor="@color/light_grey_7d"
+                        android:fontFamily="@font/stolzl_regular"
+                        android:layout_marginTop="4dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:background="@drawable/rounded_shape_design"
+                    android:padding="8dp"
+                    android:elevation="5dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginHorizontal="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:src="@drawable/ic_arrow_right_nav"
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"/>
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_centerVertical="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:text="@string/advanced_features_activity_split_tunneling_title"
+                            android:textSize="12sp"
+                            android:textColor="@color/grey_49"
+                            android:fontFamily="@font/stolzl_medium"
+                            android:layout_marginEnd="8dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                        <TextView
+                            android:text="@string/advanced_features_activity_premium_text"
+                            android:textSize="12sp"
+                            android:textColor="@color/orange_FD"
+                            android:fontFamily="@font/stolzl_medium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:text="@string/advanced_features_activity_choose_apps_text"
+                        android:textSize="8sp"
+                        android:textColor="@color/light_grey_7d"
+                        android:fontFamily="@font/stolzl_regular"
+                        android:layout_marginTop="4dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:background="@drawable/rounded_shape_design"
+                    android:padding="8dp"
+                    android:elevation="5dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginHorizontal="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:src="@drawable/ic_arrow_right_nav"
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"/>
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_centerVertical="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:text="@string/advanced_features_activity_fast_connect_title"
+                            android:textSize="12sp"
+                            android:textColor="@color/grey_49"
+                            android:fontFamily="@font/stolzl_medium"
+                            android:layout_marginEnd="8dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                        <TextView
+                            android:text="@string/advanced_features_activity_premium_text"
+                            android:textSize="12sp"
+                            android:textColor="@color/orange_FD"
+                            android:fontFamily="@font/stolzl_medium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:text="@string/advanced_features_activity_fast_connect_way_text"
+                        android:textSize="8sp"
+                        android:textColor="@color/light_grey_7d"
+                        android:fontFamily="@font/stolzl_regular"
+                        android:layout_marginTop="4dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:background="@drawable/rounded_shape_design"
+                    android:padding="8dp"
+                    android:elevation="5dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginHorizontal="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:src="@drawable/ic_arrow_right_nav"
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"/>
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_centerVertical="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:text="@string/advanced_features_activity_kill_switch_title"
+                            android:textSize="12sp"
+                            android:textColor="@color/grey_49"
+                            android:fontFamily="@font/stolzl_medium"
+                            android:layout_marginEnd="8dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                        <TextView
+                            android:text="@string/advanced_features_activity_premium_text"
+                            android:textSize="12sp"
+                            android:textColor="@color/orange_FD"
+                            android:fontFamily="@font/stolzl_medium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:text="@string/advanced_features_activity_disable_network_text"
+                        android:textSize="8sp"
+                        android:textColor="@color/light_grey_7d"
+                        android:fontFamily="@font/stolzl_regular"
+                        android:layout_marginTop="4dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    app:strokeColor="@color/transparent"
+                    app:cardBackgroundColor="@color/light_grey_e4"
+                    app:cardElevation="5dp"
+                    android:layout_marginEnd="4dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp">
+
+                    <androidx.appcompat.widget.SwitchCompat
+                        app:track="@drawable/bg_switch_off"
+                        app:trackTint="@null"
+                        android:elevation="5dp"
+                        android:thumb="@drawable/custom_switch_thumb"
+                        app:thumbTint="@null"
+                        android:layout_marginStart="-4dp"
+                        android:layout_marginEnd="4dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+
+                </com.google.android.material.card.MaterialCardView>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_toStartOf="@id/cardViewStableSwitch"
+                    android:orientation="vertical"
+                    android:layout_centerVertical="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:text="@string/advanced_features_activity_stable_connection_title"
+                            android:textSize="12sp"
+                            android:textColor="@color/grey_49"
+                            android:fontFamily="@font/stolzl_medium"
+                            android:layout_marginEnd="8dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                        <TextView
+                            android:text="@string/advanced_features_activity_premium_text"
+                            android:textSize="12sp"
+                            android:textColor="@color/orange_FD"
+                            android:fontFamily="@font/stolzl_medium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:text="@string/advanced_features_activity_choose_stable_network_text"
+                        android:textSize="8sp"
+                        android:textColor="@color/light_grey_7d"
+                        android:fontFamily="@font/stolzl_regular"
+                        android:layout_marginTop="4dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/cardViewStableSwitch"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    app:strokeColor="@color/transparent"
+                    app:cardBackgroundColor="@color/light_grey_e4"
+                    app:cardElevation="5dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="4dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp">
+
+                    <androidx.appcompat.widget.SwitchCompat
+                        app:track="@drawable/bg_switch_off"
+                        app:trackTint="@null"
+                        android:elevation="5dp"
+                        android:thumb="@drawable/custom_switch_thumb"
+                        app:thumbTint="@null"
+                        android:layout_marginStart="-4dp"
+                        android:layout_marginEnd="4dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+
+                </com.google.android.material.card.MaterialCardView>
+
+            </RelativeLayout>
+
+            <TextView
+                android:text="@string/advanced_features_activity_dark_mode_title"
+                android:textSize="12sp"
+                android:textColor="@color/grey_49"
+                android:fontFamily="@font/stolzl_medium"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.radiobutton.MaterialRadioButton
+                    android:text="@string/advanced_features_activity_on_text"
+                    android:textSize="11sp"
+                    android:textColor="@drawable/custom_radio_button_text"
+                    android:fontFamily="@font/stolzl_medium"
+                    app:buttonTint="@drawable/custom_radio_button_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <com.google.android.material.radiobutton.MaterialRadioButton
+                    android:text="@string/advanced_features_activity_off_text"
+                    android:textSize="11sp"
+                    android:textColor="@drawable/custom_radio_button_text"
+                    android:fontFamily="@font/stolzl_medium"
+                    app:buttonTint="@drawable/custom_radio_button_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <com.google.android.material.radiobutton.MaterialRadioButton
+                    android:text="@string/advanced_features_activity_system_text"
+                    android:textSize="11sp"
+                    android:textColor="@drawable/custom_radio_button_text"
+                    android:fontFamily="@font/stolzl_medium"
+                    app:buttonTint="@drawable/custom_radio_button_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </RadioGroup>
+            
+            <TextView
+                android:text="@string/advanced_features_activity_appearance_adjust_text"
+                android:textColor="@color/light_grey_7d"
+                android:fontFamily="@font/stolzl_regular"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="-8dp"
+                android:textSize="8sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>
