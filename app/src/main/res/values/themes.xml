@@ -19,4 +19,13 @@
         <item name="cornerSizeBottomRight">25dp</item>
         <item name="cornerSizeBottomLeft">25dp</item>
     </style>
+
+    <style name="CustomShapeAppearance">
+        <item name="neumorph_cornerFamily">rounded</item>
+        <item name="neumorph_cornerSize">32dp</item>
+        <item name="neumorph_cornerSizeTopLeft">32dp</item>
+        <item name="neumorph_cornerSizeTopRight">32dp</item>
+        <item name="neumorph_cornerSizeBottomLeft">32dp</item>
+        <item name="neumorph_cornerSizeBottomRight">32dp</item>
+    </style>
 </resources>

@@ -56,6 +56,11 @@ class HomeActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        binding.layoutSelectLocation.setOnClickListener {
+            val intent = Intent(this@HomeActivity, SelectLocationActivity::class.java)
+            startActivity(intent)
+        }
+
         binding.layoutSideBar.layoutNavUseOnOtherDevices.setOnClickListener {
             val intent = Intent(this@HomeActivity, UseOnOtherDevicesActivity::class.java)
             startActivity(intent)

@@ -78,4 +78,9 @@
     <string name="for_all_devices_others_device_title">For Windows, Mac, and others</string>
     <string name="for_all_devices_others_device_descriptions">VPN has extended the VPN service on PCs, including Windows and Mac.\n\nSecure your internet traffic, access various websites, and stream your favourite content on your computer now.\n\nJust enter <a href="https://flashvpn.com">https://flashvpn.com</a> in your browser to check out our official website for more information.</string>
 
+    <!--Select Location Activity-->
+    <string name="select_location_activity_title">Select Location</string>
+    <string name="select_location_activity_for_all_location_text">for all location</string>
+    <string name="select_location_activity_search_location_text">Search for country, city and streaming</string>
+    <string name="select_location_activity_recommended_text">Recommended</string>
 </resources>
